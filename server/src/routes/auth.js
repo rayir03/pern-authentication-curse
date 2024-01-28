@@ -12,7 +12,7 @@ router.post("/register", registerValidation, validationMiddelware, register);
 
 router.post("/login", loginValidation, validationMiddelware, login);
 
-router.get("/logout", userAuth, logout);
+router.get("/logout", logout);
 
 
 
